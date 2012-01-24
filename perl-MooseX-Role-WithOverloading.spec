@@ -61,9 +61,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorarch}/MooseX/Role/WithOverloading.pm
+%dir %{perl_vendorarch}/MooseX
+%dir %{perl_vendorarch}/MooseX/Role
 %{perl_vendorarch}/MooseX/Role/WithOverloading
-%dir %{perl_vendorarch}/auto/MooseX/Role/WithOverloading
+%{perl_vendorarch}/MooseX/Role/WithOverloading.pm
 %{perl_vendorarch}/auto/MooseX/Role/WithOverloading/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/MooseX/Role/WithOverloading/*.so
 %{_mandir}/man3/*
