@@ -9,7 +9,7 @@ Summary:	MooseX::Role::WithOverloading - Roles which support overloading
 #Summary(pl.UTF-8):	
 Name:		perl-MooseX-Role-WithOverloading
 Version:	0.09
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -65,6 +65,8 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/MooseX/Role
 %{perl_vendorarch}/MooseX/Role/WithOverloading
 %{perl_vendorarch}/MooseX/Role/WithOverloading.pm
+%dir %{perl_vendorarch}/auto/MooseX
+%dir %{perl_vendorarch}/auto/MooseX/Role
 %dir %{perl_vendorarch}/auto/MooseX/Role/WithOverloading
 %{perl_vendorarch}/auto/MooseX/Role/WithOverloading/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/MooseX/Role/WithOverloading/*.so
