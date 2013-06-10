@@ -8,13 +8,13 @@
 Summary:	MooseX::Role::WithOverloading - Roles which support overloading
 #Summary(pl.UTF-8):	
 Name:		perl-MooseX-Role-WithOverloading
-Version:	0.09
-Release:	4
+Version:	0.13
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/MooseX/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	47a9ba06b0d2ca69a1fd65482852ee4a
+# Source0-md5:	9f00627828c22aece891b016bcf12762
 # generic URL, check or change before uncommenting
 #URL:		http://search.cpan.org/dist/MooseX-Role-WithOverloading/
 BuildRequires:	perl-devel >= 1:5.8.0
