@@ -23,6 +23,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-Moose >= 0.94
 BuildRequires:	perl-MooseX-Types
 BuildRequires:	perl-Test-CheckDeps
+BuildRequires:	perl-Test-NoWarnings
 BuildRequires:	perl-aliased
 BuildRequires:	perl-namespace-autoclean >= 0.12
 BuildRequires:	perl-namespace-clean
