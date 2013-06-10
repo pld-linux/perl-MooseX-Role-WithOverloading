@@ -22,8 +22,9 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Moose >= 0.94
 BuildRequires:	perl-MooseX-Types
+BuildRequires:	perl-Test-CheckDeps
 BuildRequires:	perl-aliased
-BuildRequires:	perl-namespace-autoclean
+BuildRequires:	perl-namespace-autoclean >= 0.12
 BuildRequires:	perl-namespace-clean
 %endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
