@@ -70,6 +70,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/MooseX
 %dir %{perl_vendorarch}/auto/MooseX/Role
 %dir %{perl_vendorarch}/auto/MooseX/Role/WithOverloading
-%{perl_vendorarch}/auto/MooseX/Role/WithOverloading/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/MooseX/Role/WithOverloading/*.so
 %{_mandir}/man3/*
