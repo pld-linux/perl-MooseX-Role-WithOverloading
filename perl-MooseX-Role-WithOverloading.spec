@@ -8,7 +8,7 @@
 Summary:	MooseX::Role::WithOverloading - Roles which support overloading
 Name:		perl-MooseX-Role-WithOverloading
 Version:	0.13
-Release:	7
+Release:	8
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
