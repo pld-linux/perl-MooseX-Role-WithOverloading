@@ -4,7 +4,6 @@
 
 %define		pdir	MooseX
 %define		pnam	Role-WithOverloading
-%include	/usr/lib/rpm/macros.perl
 Summary:	MooseX::Role::WithOverloading - Roles which support overloading
 Name:		perl-MooseX-Role-WithOverloading
 Version:	0.13
