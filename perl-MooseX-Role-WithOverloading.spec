@@ -6,31 +6,21 @@
 %define		pnam	Role-WithOverloading
 Summary:	MooseX::Role::WithOverloading - Roles which support overloading
 Name:		perl-MooseX-Role-WithOverloading
-Version:	0.13
-Release:	8
+Version:	0.17
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9f00627828c22aece891b016bcf12762
+Source0:	https://www.cpan.org/modules/by-authors/id/E/ET/ETHER/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	df0bb5ecaacdcccea121797b9825f612
 URL:		http://search.cpan.org/dist/MooseX-Role-WithOverloading/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-aliased
-BuildRequires:	perl-Class-Load
-BuildRequires:	perl-Class-Load-XS
-BuildRequires:	perl-Devel-GlobalDestruction
-BuildRequires:	perl-Devel-OverloadInfo
-BuildRequires:	perl-Eval-Closure
-BuildRequires:	perl-Exporter-Tiny
 BuildRequires:	perl-Moose >= 0.94
-BuildRequires:	perl-MooseX-Types
-BuildRequires:	perl-MRO-Compat
-BuildRequires:	perl-namespace-autoclean >= 0.12
+BuildRequires:	perl-aliased
+BuildRequires:	perl-namespace-autoclean >= 0.16
 BuildRequires:	perl-namespace-clean
-BuildRequires:	perl-Test-CheckDeps
-BuildRequires:	perl-Test-NoWarnings
 %endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
